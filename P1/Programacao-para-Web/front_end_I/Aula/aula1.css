@@ -1,0 +1,17 @@
+hr {color: sienna}
+
+p {margin-left: 20px; color:blue}
+
+body {background-color:#ebeb5f;
+    background-image: url(imagens/nyan-cat-1.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 35%;
+    color:green}
+
+p.primeiro {
+    color:red}
+
+#id2{
+    color:black}

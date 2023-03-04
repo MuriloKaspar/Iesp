@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <!-- os textos dentro do form abaixo não é para ser usado assim -->
+    <form autocomplete="on" target="_blank" method="get">
+        Texto: <input type="text" name="nome"  id="nome" autofocus><br><br>
+        E-mail: <input type="email"><br><br>
+        Senha: <input type="password"><br><br>
+        Pesquisa: <input type="search"><br><br>
+        URL: <input type="url"><br><br>
+        Number: <input type="number"><br><br>
+    </form>
+    <form method="get">
+        <!-- "Radio Button" só seleciona 1 opção -->
+        Selecine 1 opção:<br>
+        <input type="radio" name="videogame" value="snes" checked/> SNES <br>
+        <input type="radio" name="videogame" value="neogeo"/> Neo Geo <br>
+        <input type="radio" name="videogame" value="psx"/> PSX<br><br>
+        <input type="submit"><br><br>
+    </form>
+    <form method="get">
+        <!-- "Checkbox Button" pode selecionar mais de 1 opção -->
+        Selecione uma opção ou mais:<br>
+        <input type="checkbox" name="snes"/> SNES <br>
+        <input type="checkbox" name="neogeo"/> Neo Geo <br>
+        <input type="checkbox" name="psx"/> PSX <br><br>
+        <input type="submit"><br><br>
+    </form>
+    <form>
+        <select name="selecao" id="select">
+            <option value="html5">HTML5</option>
+            <option value="html51">HTML51</option>
+            <option value="html52">HTML52</option>
+            <option value="html53">HTML53</option>
+            <input type="submit"><br><br>
+        </select>
+    </form>
+    <!-- incompleto. continuar em casa -->
+    <form autocomplete="on">
+        <fieldset>
+            <legend>Cadastro</legend>
+            <label for="email">E-mail</label>
+            <input type="email"><br><br>
+            <label for="nome">Nome</label>
+            <input type="nome">   
+        </fieldset>
+    </form>
+</body>
+</html>

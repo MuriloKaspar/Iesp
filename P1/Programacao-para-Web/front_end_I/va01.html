@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova da 6ª série</title>
+</head>
+<body>
+    <H1>6ª Série - Prova de Linguas Estrangeiras</H1>
+    <strong>Preencha as suas informações e responda as questões abaixo.</strong><br><br>
+    
+    <form autocomplete="off" target="_blank" method="get">
+        <fieldset>
+            <legend>Informação do Aluno</legend>
+            <input type="text" id="nome" name="nome" placeholder="Digite o seu nome"><br><br>
+            <input type="number" id="grupo" name="grupo" placeholder="Nº de pessoas no grupo"><br><br>
+            <input type="email" id="email" name="email" placeholder="Digite o seu E-mail"><br><br>
+            Data de Nascimento<br>
+            <input type="date" id="nasc" name="nasc" placeholder="dd/mm/aaaa"><br><br>
+            Digite uma senha para acessar os dados da pesquisa posteriormente<br>
+            <input type="password" id="senha" name="senha" placeholder="Digite a senha"><br>
+        </fieldset>
+    </form>
+    <form autocomplete="off" target="_blank" method="get">
+        <fieldset>
+            <legend>Inglês</legend>
+            <img src="https://sejatrainee.com.br/wp-content/uploads/2021/08/Capas-artigos-52.png" alt="ingles" width="50%" height="50%"><br>
+            <strong>1) Complete a frase:</strong><br><br>
+            _________ cures a headache faster than an aspirin.<br><br>
+            <form>
+                <select name="selecao" id="select">
+                    <option value="i1a">Nothing</option>
+                    <option value="i1b">None</option>
+                    <option value="i1c">Nobody</option>
+                    <option value="i1d">Somebody</option>
+                    <option value="i1e">Anybody</option>
+                </select>
+            </form><br><br>
+            <strong>2) Em inglês, “Você está esperando alguma carta?” seria:</strong><br><br>
+            <form method="get">
+                <input type="radio" name="i2a" value="i2a"/> a) Have you been waiting for a chart?<br>
+                <input type="radio" name="i2b" value="i2b"/> b) Are you expecting a letter?<br>
+                <input type="radio" name="i2c" value="i2c"/> c) Are you attending any lecture?<br>
+                <input type="radio" name="i2d" value="i2d"/> d) Are you staying for the lecture?<br>
+                <input type="radio" name="i2e" value="i2e"/> e) Have you been hoping for a lecture?<br>
+            </form>
+        </fieldset>
+        <form autocomplete="off" target="_blank" method="get">
+            <fieldset>
+                <legend>Espanhol</legend>
+                <img src="espanhol.jpg" alt="espanhol"><br>
+                <strong>1) Passe para o feminino:</strong><br><br>
+                a) El abuelo <input type="text" id="es1a" placeholder="Resposta"><br>
+                b) El sobrino <input type="text" id="es1b" placeholder="Resposta"><br>
+                c) El padre <input type="text" id="es1c" placeholder="Resposta"><br>
+                d) El hermano <input type="text" id="es1d" placeholder="Resposta"><br>
+                e) El nieto <input type="text" id="es1e" placeholder="Resposta"><br>
+                f) El tío <input type="text" id="es1f" placeholder="Resposta"><br>
+                g) El hijo <input type="text" id="es1g" placeholder="Resposta"><br><br>
+
+                <strong>2) Leia o texo e marque a alternativa correta:</strong><br><br>
+                <p>Orlando Goicoechea reconoce las maderas por el olor, de qué árboles vienen, qué edad tienen, y oliéndolas sabe si fueron cortadas a tiempo o a destiempo y les adivina los posibles contratiempos.
+                    Al cabo de tantos años de trabajo, Orlando se ha dado el lujo de comprarse un video, y ve una película tras otra.
+                    No sabía que eras loco por cine le dice el vecino.
+                    Y Orlando le explica que no, que a él ni le va ni le viene, pero gracias al video puede detener las películas para estudiar los muebles.</p>
+                    A expressão ni le va ni le viene encerra uma opinião a respeito de cinema que:<br><br>
+                <form method="get">
+                    <input type="radio" name="es2" value="2a"/> a) desconstrói a ideia central do conto sobre a importância das atividades de lazer. <br>
+                    <input type="radio" name="es2" value="2b"/> b) contradiz a percepção que o narrador tem em relação à profissão exercida por Orlando. <br>
+                    <input type="radio" name="es2" value="2c"/> c) revela o descaso do narrador com relação ao ofício desempenhado por Orlando.<br>
+                    <input type="radio" name="es2" value="2d"/> d) reforça a impressão do vizinho de que Orlando gostava de filmes.<br>
+                    <input type="radio" name="es2" value="2e"/> e) evidencia a extrema devoção do carpinteiro ao seu ofício.<br>
+                </form>
+            </fieldset>
+        </form>
+    </form>
+    <form autocomplete="off" target="_blank" method="get">
+        <fieldset>
+            <legend>Dê uma nota para esse exercício</legend>
+            <form action="/action_page.php">
+                <label for="vol">Volume (between 0 and 10):</label>
+                <input type="range" id="vol" name="vol" min="0" max="50"><br><br>
+            </form>
+        </fieldset>
+    </form>
+    <form autocomplete="off" target="_blank" method="get">
+        <fieldset>
+            <legend>Deixe sua opinião</legend>
+            <form method="get">
+                <textarea rows="4" cols="50" placeholder="Dê a sua opinião aqui..."></textarea>
+            </form>
+        </fieldset>
+    </form><br><br>
+    <input type="submit"><br><br>
+</body>
+</html>
