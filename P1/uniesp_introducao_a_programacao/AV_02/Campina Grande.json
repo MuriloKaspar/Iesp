@@ -1,0 +1,47 @@
+{
+    "coord": {
+        "lon": -35.8823,
+        "lat": -7.2275
+    },
+    "weather": [
+        {
+            "id": 500,
+            "main": "Rain",
+            "description": "light rain",
+            "icon": "10d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 296.24,
+        "feels_like": 296.51,
+        "temp_min": 296.24,
+        "temp_max": 296.24,
+        "pressure": 1011,
+        "humidity": 73,
+        "sea_level": 1011,
+        "grnd_level": 953
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 1.87,
+        "deg": 109,
+        "gust": 1.57
+    },
+    "rain": {
+        "1h": 0.1
+    },
+    "clouds": {
+        "all": 100
+    },
+    "dt": 1669813424,
+    "sys": {
+        "country": "BR",
+        "sunrise": 1669795033,
+        "sunset": 1669840051
+    },
+    "timezone": -10800,
+    "id": 3403642,
+    "name": "Campina Grande",
+    "cod": 200
+}

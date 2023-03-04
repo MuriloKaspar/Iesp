@@ -1,0 +1,47 @@
+{
+    "coord": {
+        "lon": -40.5032,
+        "lat": -9.3889
+    },
+    "weather": [
+        {
+            "id": 500,
+            "main": "Rain",
+            "description": "light rain",
+            "icon": "10d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 298.46,
+        "feels_like": 298.77,
+        "temp_min": 298.46,
+        "temp_max": 298.46,
+        "pressure": 1009,
+        "humidity": 66,
+        "sea_level": 1009,
+        "grnd_level": 966
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 5.59,
+        "deg": 271,
+        "gust": 6.81
+    },
+    "rain": {
+        "1h": 0.65
+    },
+    "clouds": {
+        "all": 98
+    },
+    "dt": 1669813429,
+    "sys": {
+        "country": "BR",
+        "sunrise": 1669795931,
+        "sunset": 1669841373
+    },
+    "timezone": -10800,
+    "id": 3392242,
+    "name": "Petrolina",
+    "cod": 200
+}

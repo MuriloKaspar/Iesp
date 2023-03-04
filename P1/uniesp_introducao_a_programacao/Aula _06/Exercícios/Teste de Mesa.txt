@@ -1,0 +1,25 @@
+#Teste de Mesa#
+
+URL ="www.bitcoin.com"
+ERRO567 = "Você não inseriu o arquivo!"
+
+valor_dolar = "5,17"
+============================
+
+numero = 10
+for i in range (10):
+    numero = numero + 10
+    numero = numero / 6
+    numero = numero ** 2
+
+print(numero)
+
+i = variavel de interação (pode ter qq nome)
+===========================
+
+for abacate in range (0, 30, 2):   valor inicial, valor maximo, implemento
+    print (pera)
+
+range n inclui o valor inclusivo (o valor maximo digitado).
+============================
+
