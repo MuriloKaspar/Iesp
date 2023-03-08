@@ -1,6 +1,6 @@
 var i, altura, sexo, maiorAlt = 0, menorAlt = 3, mulh = 0, hom = 0, mediaMulh = 0, mediaHom = 0, contaMulh = 0, contaHom = 0;
 
-		for(i = 1 ;i <= 5; i++) {		
+		for(i = 1 ;i <= 15; i++) {		
 			altura = parseFloat(prompt("Informe a altura["+i+"]:"));
 			sexo = prompt("Informe o sexo: M ou F:").toUpperCase();
 			
