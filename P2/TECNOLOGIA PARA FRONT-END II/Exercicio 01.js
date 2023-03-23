@@ -19,7 +19,7 @@ var i, altura, sexo, maiorAlt = 0, menorAlt = 3, mulh = 0, hom = 0, mediaMulh = 
 			}
 		}
 		mediaMulh = mulh/contaMulh;
-        	mediaHom = hom/contaHom;
+        mediaHom = hom/contaHom;
 		alert("A maior altura é: "+maiorAlt); 
 		alert("A menor altura é: "+menorAlt);
 		alert("A média da altura dos homens é: "+mediaHom.toFixed(2));
