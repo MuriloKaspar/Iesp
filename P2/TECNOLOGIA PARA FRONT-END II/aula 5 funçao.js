@@ -3,7 +3,7 @@ function somar(numero1, numero2){
     return total;
 }
 
-var resultado = somar (1,5);
+var resultado = somar (2,5);
 console.log(resultado);
 
 var multiplicar = function(n1,n2){
