@@ -1,3 +1,10 @@
-Fernado Braz da Silveira  
-Jayme Holanda Aguiar  
-Murilo Kaspar Deininger Neto 
+# ****************************************************
+# ******          Projeto Integrador 2          ******
+# ******          Turma: SI/SPI - P1B           ******
+# ****************************************************
+# ******                 ALUNOS:                ******
+# ******                                        ******
+# ******       Fernando Braz da Silveira        ******
+# ******       Jayme Holanda Aguiar             ******
+# ******       Murilo Kaspar Deininger Neto     ******
+# ****************************************************
